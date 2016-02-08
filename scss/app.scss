@@ -112,3 +112,39 @@ nav {
     color:$accent;
   }
 }
+
+.sidebar{
+  background-color: $light-blue;
+  padding: 12px 15px;
+
+  h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $sidebar-titles;
+    display: inline;
+    float: left;
+  }
+
+  img{
+    display: inline;
+    float: right;
+  }
+
+  ul{
+    list-style: none;
+    clear: both;
+    margin: 40px 0 0 0;
+  }
+
+  a{
+    color: #000;
+    font-size: $forum-title;
+  }
+
+  a span {
+    color:$mid-blue !important;
+    text-transform: uppercase;
+    margin: -5px 0 12px 0;
+    font-size: $forum-auth;
+  }
+}
